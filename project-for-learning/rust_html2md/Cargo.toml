@@ -1,0 +1,10 @@
+[package]
+name = "rust_html2md"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Use the blocking feature for simplicity in this example
+reqwest = { version = "^0.12", features = ["blocking"] }
+# A crate to convert HTML to Markdown
+html2md = "^0.2"
